@@ -4,11 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import HolaMundo from './Components/HolaMundo'
+import Button from './Components/Button'
 
 ReactDOM.render(
   <React.StrictMode>
-    <HolaMundo />
+    <Button text="Click 2" />
   </React.StrictMode>,
   document.getElementById('root')
 );
