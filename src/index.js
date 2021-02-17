@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import HolaMundo from './Components/HolaMundo'
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HolaMundo />
   </React.StrictMode>,
   document.getElementById('root')
 );
